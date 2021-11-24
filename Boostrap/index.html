@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"
+    />
+    <link 
+    rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"
+    />
+    <link 
+    rel="stylesheet" 
+    href="style.css"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"> <!-- NAVIGASI -->
+        <div class="container">
+          <a class="navbar-brand" href="#">ABAQPR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText"> <!--- text-right = tulisan ke arah kanan -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- ME = End & MS = Start -->
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#staff">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Membuat Banner -->
+    <div class="container-fluid banner"> <!--fluid = cair menyebar dengan merapat-->
+        <div class="container text-center"> <!-- tanpa fluid = menyebar tanpa merapat -->
+            <h4 class="display-6">Selamat Datang Di Website Kami</h4>
+            <h3 class="display-1">HALO!</h3>
+            <a href="#layanan">
+                <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+            </a>
+        </div>
+    <!-- Membuat Banner -->
+    </div>
+    <div class="container-fluid layanan pt-5 pb-5"><!-- PT = Padding Top, PB = Padding Bottom--> <!--LAYANAN-->
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan">Layanan</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, rerum!</p>
+            <div class="row pt-4">
+                <div class="col-md-4"> 
+                    <span class="lingkaran"> <!-- Lingkaran -->
+                    <i class="fas fa-code fa-5x"></i> <!-- Icon -->
+                    </span>
+                    <h3 class="mt-3">Programming</h3> <!-- MT = Margin Top-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, omnis!</p>
+                </div>
+                <div class="col-md-4"> 
+                    <span class="lingkaran"> <!-- Lingkaran -->
+                    <i class="fas fa-palette fa-5x"></i> <!-- Icon -->
+                    </span>
+                    <h3 class="mt-3">Desain</h3> <!-- MT = Margin Top-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, omnis!</p>
+                </div>
+                <div class="col-md-4"> 
+                    <span class="lingkaran"> <!-- Lingkaran -->
+                    <i class="fas fa-wifi fa-5x"></i> <!-- Icon -->
+                    </span>
+                    <h3 class="mt-3">Networking</h3> <!-- MT = Margin Top-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, omnis!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cotainer-fluid pt-5 pb-5 bg-light"> <!-- CARD -->
+        <div class="container text-center">
+            <h2 class="display-3" id="portofolio">Portofolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quaerat laboriosam minima ratione dolorum ex possimus? Est a rerum quis.</p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/1.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/3.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                      
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/4.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                      
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/1.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/3.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                      
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="Img/4.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis quod commodi at minus perferendis?</p>
+                          
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TENTANG-->
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, deleniti?</p>
+            <div class="clearfix pt-5 "><img src="Img/2.jpg" class="col-md-6 float-md-end mb-3 crop-img" width="300" height="300"/>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, sed recusandae? Cupiditate nisi amet officiis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, sed recusandae? Cupiditate nisi amet officiis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, sed recusandae? Cupiditate nisi amet officiis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At numquam quam fugit totam laudantium provident necessitatibus repudiandae molestiae vitae minima?</p>
+            </div>
+        </div>
+    </div>
+    <!--STAFF ATAU TIM-->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Tim Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor eos eligendi dolore, eius facere cum distinctio neque ipsum dicta.</p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img src="Img/5.jpg" class="rounded-circle mb-3"/>
+            <h4>Nayeon</h4>
+            <p>Web Designer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter-square"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-square"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin"></i></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="Img/6.jpg" class="rounded-circle mb-3"/>
+            <h4>Momo</h4>
+            <p>Data Scientist</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter-square"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-square"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin"></i></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="Img/7.jpg" class="rounded-circle mb-3"/>
+            <h4>Dahyun</h4>
+            <p>Network Engineer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter-square"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-square"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin"></i></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CLIENT-->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/2560px-Logo_NIKE.svg.png"/>
+          </div>
+          <div class="col">
+            <img src="https://www.backbase.com/wp-content/uploads/2020/05/Microsoft-Logo-PNG-Transparent.png" />
+          </div>
+          <div class="col">
+            <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" />
+          </div>
+          <div class="col">
+            <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c545.png" />
+          </div>
+          <div class="col">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--KONTAK-->
+    <div class="container-fluid kontak pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ipsam!</p>
+        <div class="row pb-3 ">
+          <div class="col-md-6">
+            <input class="form-control form-contrl-lg mb-3" type="text" placeholder="Nama"/>
+            <input class="form-control form-contrl-lg mb-3" type="text" placeholder="Email"/>
+            <input class="form-control form-contrl-lg" type="text" placeholder="Phone"/>
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="4"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 pb-5">
+      All Rights Reserved &copy; 2021
+    </div>
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.banner {
+    background: url(Img/2.jpg) 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.lingkaran { /* Membuat Lingkaran */
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc345d;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #CCCCCC;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+
+}
+
+.kontak {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGg8FhxTtw5Bbls_Vo_M5sVdbTY_3824JwQ&usqp=CAU") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
